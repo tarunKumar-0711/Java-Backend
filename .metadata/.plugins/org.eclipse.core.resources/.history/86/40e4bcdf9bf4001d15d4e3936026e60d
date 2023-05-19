@@ -1,0 +1,24 @@
+package javaPractice;
+
+public class StaticUtility {
+	String name;
+	int roll;
+	
+	static String uname;
+	static int counter=0;
+	
+	public static void setUname(String univ) {
+		uname=univ;
+	}
+	
+	public StaticUtility(String name) {
+		this.name=name;
+		this.roll =++counter;
+	}
+	
+	public static void main(String args[]) {
+		setUname("KIET");
+		StaticUtility tarun = new StaticUtility("Tarun");
+		
+	}
+}

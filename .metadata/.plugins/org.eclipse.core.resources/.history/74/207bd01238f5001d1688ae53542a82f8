@@ -1,0 +1,13 @@
+package javaPractice;
+abstract class Shape{
+	String shape;
+	
+	abstract double area();
+}
+class Circle extends Shape{
+	String shape=circle;
+	
+}
+public class Abstract1 {
+
+}
