@@ -1,0 +1,5 @@
+package com.Exception.Handling;
+
+public class MyException {
+
+}
