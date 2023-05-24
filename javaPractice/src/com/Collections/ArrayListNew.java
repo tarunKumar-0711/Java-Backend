@@ -21,5 +21,11 @@ public class ArrayListNew {
 		System.out.println(lst.get(3));
 		System.out.println(lst.indexOf(80));
 		System.out.println(lst.contains(80));
+		Iterator<Integer> itr = lst.iterator();
+		while(itr.hasNext()) {
+			itr.next();
+			//System.out.println(itr.next() );
+			System.out.println(itr);
+		}
 	}
 }
