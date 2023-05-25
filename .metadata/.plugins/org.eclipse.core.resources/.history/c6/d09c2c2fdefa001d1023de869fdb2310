@@ -1,0 +1,26 @@
+package com.Map;
+
+import java.util.Hashtable;
+class Temp{
+	int i;
+	
+	public Temp(int i) {
+		this.i=i;
+	}
+	public int hashcode() {
+		return i;
+	}
+	public String toString() {
+		return i+" ";
+	}
+}
+
+public class TableHash {
+	
+	public static void main(String[] args){
+		Hashtable ht = new Hashtable();
+		ht.put(new Hashtable(10),"A");
+		ht.put(new Hashtable(14),"R");
+		ht.put(new Hashtable(13),"K");
+	}
+}

@@ -1,0 +1,12 @@
+package com.Map;
+
+import java.util.WeakHashMap;
+
+public class WeakHashMapNew {
+	public static void main(String args[]) {
+		WeakHashMap map = new WeakHashMap();
+		map.put(null, "23");
+		System.gc();
+		System.out.println(map);
+	}
+}

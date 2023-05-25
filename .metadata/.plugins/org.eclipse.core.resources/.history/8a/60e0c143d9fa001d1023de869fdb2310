@@ -1,0 +1,19 @@
+package com.Map;
+
+class Testing {
+
+	@Override
+	public String toString() {
+		return "Key";
+	}
+	
+	
+}
+
+
+public class Weak {
+
+	public static void main(String[] args) {
+		
+	}
+}
