@@ -9,9 +9,9 @@ public class StaticMethods {
 		a=30;
 		System.out.println("Inside m1");
 		
-		b=10;//compilation error for accessing non-static variable inside static method.
+		//b=10;//compilation error for accessing non-static variable inside static method.
 		
-		m2();//compilation error for accessing non-static method inside static method.
+		//m2();//compilation error for accessing non-static method inside static method.
 		
 	}
 	

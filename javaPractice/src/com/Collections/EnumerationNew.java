@@ -1,7 +1,5 @@
 package com.Collections;
-
 import java.util.*;
-
 public class EnumerationNew {
 	public static void main(String args[]) {
 		Vector vector = new Vector();
