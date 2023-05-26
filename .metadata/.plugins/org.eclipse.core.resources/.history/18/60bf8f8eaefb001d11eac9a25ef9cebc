@@ -1,0 +1,9 @@
+package com.GenericNew;
+
+public class GDemo {
+	public static void main(String args[]) {
+		Generic<Integer> obj = new Generic<>(10);
+		obj.show();
+		System.out.println(obj.getObj());
+	}
+}

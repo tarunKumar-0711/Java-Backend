@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f46a7c-3304-4e8a-9cd5-65ac935f9803" name="Changes" comment="Trying to push from intelliJ">
-      <change afterPath="$PROJECT_DIR$/src/com/IntelliTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d1/100a6a4a8cfb001d11eac9a25ef9cebc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/GCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/Map/VV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/Map/check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/GCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Map/VV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/javaPractice/.indexes/e4/81/3c/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/javaPractice/.indexes/e4/81/3c/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/javaPractice/.indexes/e4/81/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/javaPractice/.indexes/e4/81/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/javaPractice/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2612198554.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2612198554.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/Collections/EnumerationNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/Collections/EnumerationNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/Map/HashMapNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/Map/HashMapNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/Map/IdentityHashMapNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/Map/IdentityHashMapNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/Map/LinkedHashMapNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/Map/LinkedHashMapNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/Map/WeakHashMapNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaPractice/StaticMethods.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +50,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2QHVRFYeb1t2jLgfjrr1rBo49fV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Weak">
     <configuration name="ArrayListNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Collections.ArrayListNew" />
@@ -133,6 +165,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Map interface" />
     <MESSAGE value="Trying to push from intelliJ" />
     <option name="LAST_COMMIT_MESSAGE" value="Trying to push from intelliJ" />
