@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WriteToFile.java&apos; to &apos;javaPractice/src/com.IOJava&apos;&#x0A;- Original project: &apos;javaPractice&apos;&#x0A;- Destination element: &apos;javaPractice/src/com.IOJava&apos;&#x0A;- Original element: &apos;com.Map.WriteToFile.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.IOJava" element1="/src&lt;com.Map{WriteToFile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1685290901678" units="1" version="1.0"/>
+</session>

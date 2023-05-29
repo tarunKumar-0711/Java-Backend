@@ -1,0 +1,9 @@
+package com.IOJava;
+
+import java.io.PrintWriter;
+
+public class AMerge {
+	public static void main(String[] args) {
+		PrintWriter pw = new PrintWriter("/home/ctp/eclipse-workspace/javaPractice/src/com/IOJava/");
+	}
+}
