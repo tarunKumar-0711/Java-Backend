@@ -3,7 +3,7 @@ import java.io.*;
 import java.io.Serializable;
 class Dog implements Serializable{
 		int i=10;
-		transient final int j=20;
+		transient final long j=20;
 }
 public class SerializableN{
 	public static void main (String[] args)throws IOException,ClassNotFoundException

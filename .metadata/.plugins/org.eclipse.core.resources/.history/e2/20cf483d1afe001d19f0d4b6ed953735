@@ -23,8 +23,6 @@ public class SerializableN{
 		System.out.println("Deserialization ended");
 		System.out.println("Dog object data");
 		System.out.println(d2.i+"\t" +d2.j);
-		ois.close();
-		oos.close();
 	}
 }
 
