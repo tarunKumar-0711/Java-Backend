@@ -1,8 +1,0 @@
-package com.Map;
-
-public class Weak {
-
-	public static void main(String[] args) {
-		
-	}
-}

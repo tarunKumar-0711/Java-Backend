@@ -1,8 +1,0 @@
-package com.Collections;
-import java.util.*;
-public class NewStack {
-
-	public static void main(String args[]) {
-		
-	}
-}

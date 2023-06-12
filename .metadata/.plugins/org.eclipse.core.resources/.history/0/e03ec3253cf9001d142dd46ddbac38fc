@@ -1,9 +1,0 @@
-package com.Collections;
-import java.util.*;
-
-public class ArrayList {
-	public static void main(String args[]) {
-		List<Integer> lst = new ArrayListNew<>();
-		
-	}
-}
