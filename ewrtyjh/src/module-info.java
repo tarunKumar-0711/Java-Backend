@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author ctp
- *
- */
-module ewrtyjh {
-}
