@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 	// TODO Auto-generated method stub
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/collection/configCollection.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("xmlConfig/configCollection.xml");
 		Emp employee = (Emp)context.getBean("Emp");
 		System.out.println(employee);
 		System.out.println(employee.getName());
