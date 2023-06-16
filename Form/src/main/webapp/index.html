@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+<style>
+.container {
+	width: 25%;
+	border: 2px solid black;
+	padding: 20px;
+	margin: auto;
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Registration Form</h1>
+		<form id="form" action="RegisterServlet" method="post">
+			<table>
+				<tr>
+					<td>Enter Name:</td>
+					<td><input type="text" name="name" placeholder="name" /></td>
+				</tr>
+
+				<tr>
+					<td>Enter Password:</td>
+					<td><input type="password" name="psswrd"
+						placeholder="cuv$638bb" /></td>
+				</tr>
+
+				<tr>
+					<td>Enter mail:</td>
+					<td><input type="email" name="mail"
+						placeholder="xxxx@gmail.com" /></td>
+				</tr>
+
+				<tr>
+					<td>Select Gender</td>
+					<td><input type="radio" name="gender" value="male" />Male
+						&nbsp &nbsp <input type="radio" name="gender" value="female" />Female</td>
+				</tr>
+
+				<tr>
+					<td>Select Course</td>
+					<td><select name="course">
+							<option value="java">Java</option>
+							<option value="Python">Python</option>
+							<option value="js">JavaScript</option>
+							<option value="android">Android</option>
+					</select></td>
+				</tr>
+
+				<tr style="text-align: center">
+					<td><input type="checkbox" name="terms" value="checked" /></td>
+					<td>Agree Terms and Condition</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><button type="submit">Register</button>&nbsp &nbsp
+						<button type="reset">Reset</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

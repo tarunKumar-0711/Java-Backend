@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean class="com.springcore.collection.Emp" name="Emp">
+    	<property  name="name" value="Tarun"/>
+    	
+    	<property name="phone">
+    		<list>
+    			<value>54987098765</value>
+    			<value>54987098265</value>
+    			<value>54987098365</value>
+    			<value>54987098465</value>
+    		</list>
+    	</property>
+    	
+    	<property name="address">
+    		<set>
+    			<value>jtyjgvkh</value>
+    			<value>DElhi</value>
+    			<value>wertyu</value>
+    			<value>dfghjghj</value>
+    		</set>
+    	</property>
+    	
+    	<property name="course">
+    		<map>
+    			<entry key="java" value="1.5"/>
+    			<entry key="javaScript" value="2"/>
+    			<entry key="Ruby" value="1"/>
+    			<entry key="python" value="1.5"/>
+    		</map>
+    	</property>
+    </bean>
+ </beans>
