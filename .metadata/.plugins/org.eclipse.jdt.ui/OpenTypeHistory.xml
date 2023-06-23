@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=javaPractice/\/usr\/lib\/jvm\/java-17-openjdk-amd64\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.util(Arrays$ArrayList.class[ArrayList" modifiers="10" timestamp="1683369070000"/>
+    <typeInfo handle="=productCrudApp/\/home\/ctp\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.29.Final\/hibernate-core-5.4.29.Final.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/hibernate-core-5.4.29.Final.jar=/=/javadoc_location=/jar:file:\/home\/ctp\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.29.Final\/hibernate-core-5.4.29.Final-javadoc.jar\!\/=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.4.29.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;org.hibernate.dialect(MySQL55Dialect.class[MySQL55Dialect" modifiers="33" timestamp="1687324542232"/>
 </typeInfoHistroy>
