@@ -1,0 +1,15 @@
+package com.features.lambda;
+import java.util.Comparator;
+
+
+public class ComparatorLambda {
+	
+	public static void main(String args[]) {
+		
+		Comparator<Integer> c1 = (Integer x,Integer y) -> x.compareTo(y);
+		System.out.println(c1);
+		
+		Comparator<Integer> c2 = (x,y) -> x.compareTo(y);
+		System.out.println(c2);
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/FetauresJava8/src/com/features/lambda/RunnbaleLambda.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.features.lambda.RunnbaleLambda"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="FetauresJava8"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FetauresJava8"/>
+</launchConfiguration>

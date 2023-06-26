@@ -1,0 +1,8 @@
+package com.features.lambda;
+
+public class ComparatorLambda {
+	
+	public static void main(String args[]) {
+		
+	}
+}
