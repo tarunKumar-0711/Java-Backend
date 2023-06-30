@@ -18,7 +18,7 @@ import com.bootValidationCrud.entity.Student;
 import com.bootValidationCrud.repo.StudentCrud;
 import com.bootValidationCrud.repo.StudentCrudRepo;
 import com.bootValidationCrud.service.StudentServiceInterface;
-import com.bootValidationCrud.service.ExtractFromJsonInterface;
+
 
 import java.util.List;
 
@@ -137,15 +137,17 @@ public class StudentController {
 	 
 	 @PostMapping("/students/search")
 	 public ResponseEntity<List<Student>> searchStudents(@RequestBody Student student) {
-		 Integer id = student.getId();
-	     String name = student.getName();
-	     String subject = student.getSubject();
-	     String state = student.getState();
-	     String rollNo = student.getRollNo();
-	     String email = student.getEmail();
-	     String sports = student.getSports();
+//		 Integer id = student.getId();
+//	     String name = student.getName();
+//	     String subject = student.getSubject();
+//	     String state = student.getState();
+//	     String rollNo = student.getRollNo();
+//	     //System.out.println(rollNo);
+//	     String email = student.getEmail();
+//	     String sports = student.getSports();
 
-	     List<Student> matchingStudents = studentCrud.findStudents(id,name, subject, state, rollNo, email, sports);
+		 //System.out.println(student.getAddress().getArea());
+	     List<Student> matchingStudents = studentCrud.findStudents(student);
 
 	     if(matchingStudents.isEmpty()){
 	         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();

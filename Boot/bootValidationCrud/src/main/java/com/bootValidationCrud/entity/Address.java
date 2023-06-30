@@ -2,6 +2,7 @@ package com.bootValidationCrud.entity;
 
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,6 +16,7 @@ import lombok.Setter;
 @Embeddable
 public class Address {
 	@NotBlank
+	@NotNull
 	private String streetNo;
 	
 	@NotBlank

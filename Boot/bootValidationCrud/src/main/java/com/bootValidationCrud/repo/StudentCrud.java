@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
+import com.bootValidationCrud.customException.EmptyListException;
 import com.bootValidationCrud.entity.Student;
 import com.bootValidationCrud.service.StudentRowMapper;
 
@@ -18,11 +19,11 @@ public class StudentCrud {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
-	public List<Student> findStudents(Integer id,String name, String subject, String state, String rollNo, String email,
-			String sports) {
-		StringBuilder queryBuilder = new StringBuilder("SELECT * FROM student WHERE");
+	public List<Student> findStudents(Student student) {
+		StringBuilder queryBuilder = new StringBuilder("SELECT * FROM student ");
 		List<Object> queryParams = new ArrayList<>();
 		boolean flag =false;
+		//System.out.println(student.getAddress().getArea());
 		
 //		if (id != null) {
 //			if(!flag) {
@@ -35,74 +36,82 @@ public class StudentCrud {
 //			queryParams.add(name);
 //		}
 		
-		if (name != null && !name.isEmpty()) {
+		if (student.getName() != null && !student.getName().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" name = '" + name + "'");
+				queryBuilder.append(" WHERE name = '" + student.getName() + "'");
 			}
 			else {
-				queryBuilder.append(" AND name = '" + name + "'");
+				queryBuilder.append(" AND name = '" + student.getName() + "'");
 			}
-			queryParams.add(name);
+			queryParams.add(student.getName());
 		}
 
-		if (subject != null && !subject.isEmpty()) {
+		if (student.getSubject() != null && !student.getSubject().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" subject = '" + subject + "'");
+				queryBuilder.append(" WHERE subject = '" + student.getSubject() + "'");
 			}
 			else {
-				queryBuilder.append(" AND subject = '" + subject + "'");
+				queryBuilder.append(" AND subject = '" + student.getSubject() + "'");
 			}
-			queryParams.add(subject);
+			queryParams.add(student.getSubject());
 		}
 
-		if (state != null && !state.isEmpty()) {
+		if (student.getState() != null && !student.getState().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" state = '" + state + "'");
+				queryBuilder.append(" WHERE state = '" + student.getState() + "'");
 			}
 			else {
-				queryBuilder.append(" AND state = '" + state + "'");
+				queryBuilder.append(" AND state = '" + student.getState() + "'");
 			}
-			queryParams.add(state);
+			queryParams.add(student.getState());
 		}
 
-		if (rollNo != null && !rollNo.isEmpty()) {
+		if (student.getRollNo() != null && !student.getRollNo().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" rollNo = '" + rollNo + "'");
+				queryBuilder.append(" WHERE roll_no = '" + student.getRollNo() + "'");
 			}
 			else {
-				queryBuilder.append(" AND name = '" + rollNo + "'");
+				queryBuilder.append(" AND roll_no = '" + student.getRollNo() + "'");
 			}
-			queryParams.add(rollNo);
+			queryParams.add(student.getRollNo());
 		}
 
-		if (email != null && !email.isEmpty()) {
+		if (student.getEmail() != null && !student.getEmail().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" email = '" + email + "'");
+				queryBuilder.append(" WHERE email = '" + student.getEmail()+ "'");
 			}
 			else {
-				queryBuilder.append(" AND email = '" + email + "'");
+				queryBuilder.append(" AND email = '" + student.getEmail() + "'");
 			}
-			queryParams.add(email);
+			queryParams.add(student.getEmail());
 		}
 
-		if (sports != null && !sports.isEmpty()) {
+		if (student.getSports() != null && !student.getSports().isEmpty()) {
 			if(!flag) {
 				flag=true;
-				queryBuilder.append(" sports = '" + sports + "'");
+				queryBuilder.append(" WHERE sports = '" + student.getSports() + "'");
 			}
 			else {
-				queryBuilder.append(" AND sports = '" + sports + "'");
+				queryBuilder.append(" AND sports = '" + student.getSports() + "'");
 			}
-			queryParams.add(sports);
+			queryParams.add(student.getSports());
 		}
 		
-		//+System.out.println(queryBuilder);
-		return jdbcTemplate.query(queryBuilder.toString(), new StudentRowMapper());//, queryParams.toArray());
+		System.out.println(queryBuilder);
+		List<Student> lStudents = jdbcTemplate.query(queryBuilder.toString(), new StudentRowMapper());
+		
+		if(lStudents!=null && lStudents.isEmpty()) {
+			throw new EmptyListException("607","No such student exists");
+		}
+		
+		return lStudents;
+		
+		//, queryParams.toArray());
 		//return jdbcTemplate.query(queryBuilder.toString(), queryParams.toArray(), new StudentRowMapper());
 
 
