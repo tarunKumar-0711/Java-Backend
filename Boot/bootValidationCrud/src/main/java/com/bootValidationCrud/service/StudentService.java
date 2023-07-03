@@ -184,6 +184,11 @@ public class StudentService implements StudentServiceInterface{
 	        
 	        return crudRepo.findAll(spec,sort);
 	    }
+	@Override
+	public List<Student> findRollNo(String rollNo) {
+		return crudRepo.findByRollNo(rollNo);
+
+	}
 		
 	}
 

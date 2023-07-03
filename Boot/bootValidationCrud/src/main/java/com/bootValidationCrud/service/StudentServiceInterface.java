@@ -13,4 +13,5 @@ public interface StudentServiceInterface {
 	public List<Student> getByName(String name);
 	public List<Student> find(Student student);
 	public List<Student> findStudents(Student student);
+	public List<Student> findRollNo(String rollNo);
 }

@@ -105,6 +105,7 @@ public class StudentCrud {
 		System.out.println(queryBuilder);
 		List<Student> lStudents = jdbcTemplate.query(queryBuilder.toString(), new StudentRowMapper());
 		
+		
 		if(lStudents!=null && lStudents.isEmpty()) {
 			throw new EmptyListException("607","No such student exists");
 		}
