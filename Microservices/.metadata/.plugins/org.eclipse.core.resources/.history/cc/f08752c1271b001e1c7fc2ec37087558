@@ -1,0 +1,5 @@
+package com.example.demo.external.services;
+
+public interface HotelService {
+
+}

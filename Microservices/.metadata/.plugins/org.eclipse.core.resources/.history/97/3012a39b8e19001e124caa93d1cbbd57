@@ -1,0 +1,23 @@
+package com.Icwd.hotel.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.Icwd.hotel.entities.Hotel;
+import com.Icwd.hotel.services.HotelServices;
+
+@RestController
+@RequestMapping("/hotels")
+public class HotelController {
+	
+	@Autowired private HotelServices hotelServices;
+	
+	@PostMapping("/save")
+	public void saveHotel(Hotel hotel) {
+		hotelServices.create(hotel);
+	}
+	
+	
+}

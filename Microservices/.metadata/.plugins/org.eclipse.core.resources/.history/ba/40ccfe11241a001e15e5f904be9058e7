@@ -1,0 +1,5 @@
+package com.Icwd.rating.repository;
+
+public interface RatingRepository {
+
+}
