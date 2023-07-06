@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.example.demo.entities.Hotel;
 
-import java.util.List;
+//import java.util.List;
 
 @FeignClient(name = "HOTEL-SERVICE")
 public interface HotelService {

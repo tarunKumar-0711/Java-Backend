@@ -32,6 +32,7 @@ public class UserController {
 	
 	
 	@GetMapping("/userid=/{userId}")
+	
 	public ResponseEntity<User> getSingleUser(@PathVariable String userId){
 		User user = userService.getUser(userId);
 		
