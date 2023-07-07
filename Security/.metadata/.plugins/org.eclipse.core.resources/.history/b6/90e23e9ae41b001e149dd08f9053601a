@@ -1,0 +1,5 @@
+package com.learn.security.controllers;
+
+public class UserController {
+
+}
